@@ -1,4 +1,4 @@
-# Pliki Unity, które NIE powinny być w repozytorium
+# Pliki tymczasowe Unity
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -8,14 +8,20 @@
 [Uu]serSettings/
 MemoryCaptures/
 
+# Pliki pakietów Unity
+Packages/packages-lock.json
+
 # Pliki systemowe
 .DS_Store
 Thumbs.db
 
-# Pliki pakietów Unity
-Packages/*
-!Packages/manifest.json
+# Pliki IDE (Visual Studio, Rider, etc.)
+*.csproj
+*.sln
+*.user
+*.suo
+*.vscode/
+*.vsconfig
 
-# Pliki konfiguracyjne systemu wersji
-.idea/
-.vs/
+# Pliki logów i cache
+UpgradeLog.htm
