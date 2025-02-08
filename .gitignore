@@ -1,0 +1,21 @@
+# Pliki Unity, które NIE powinny być w repozytorium
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+MemoryCaptures/
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki pakietów Unity
+Packages/*
+!Packages/manifest.json
+
+# Pliki konfiguracyjne systemu wersji
+.idea/
+.vs/
